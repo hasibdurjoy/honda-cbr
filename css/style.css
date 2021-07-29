@@ -1,0 +1,163 @@
+/* fonts  */
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* common */
+hr{
+    color: red;
+}
+/* header section  */
+/* .navbar-nav {
+    background-color: #264653;
+} */
+
+/* top banner section  */
+.top-banner{
+    background-color: #264653;
+
+}
+.banner-header{
+    font-size: 48px;
+    font-weight: 600;
+}
+.banner-description{
+    color: 
+    #E0E0E0;
+    font-size: 16px;
+}
+/* purchase button  */
+.purchase-button{
+    background-color: #E76F51;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: none;
+}
+
+/* featured bike section  */
+.grayscale-image{
+    filter: grayscale(100%);
+}
+.featured-bike-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* color changing text  */
+.color-changed-text{
+    color: #E76F51;
+}
+/* latest news section  */
+.latest-news .card{
+    padding: 20px;
+}
+.latest-news img{
+    border-radius: 10px;
+}
+.read-more-button{
+    align-items: center;
+padding: 15px;
+background-color: #E76F51;
+color: #FFFFFF;
+}
+/* happy client section  */
+.happy-client-section .card{
+    padding: 40px 35px;
+    align-items: center;
+}
+.happy-client-section img{
+    width: 149px;
+    height: 149px;
+}
+.rounded-image{
+    border-radius: 50%;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #E77C40;
+}
+.fa-star.unfilled{
+    color: #E77C40;
+}
+.author-name{
+    text-decoration: none;
+}
+
+/* faq section  */
+.faq-accordion-item{
+    margin-bottom: 13px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+/* bonus section  */
+/* *video  */ 
+.car-name{
+    background-color: aliceblue;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(233, 144, 144);
+}
+
+/* sign up section  */
+.form-personal-info input{
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 4px;
+    color: #4a4a4a;
+    font-size: 16px;
+    padding: 22px 19px;
+    background-color: #f3f3f3;
+}
+.form-personal-info input:hover {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+/* checking section  */
+.sign-up-accordion{
+    background-color: #c81518;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.form-check-button{
+    padding: 20px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: solid #f3f3f3;
+    border-radius: 0;
+    border-width: 0 2px 2px 0;
+}
+.form-check-button{
+    border-radius: 5px;
+}
+.form-check-button:hover{
+    color: red;
+    background-color: rgb(248, 236, 220);
+    border: 2px solid rebeccapurple;
+}
+.form-check-input-circle{
+        margin-left: 0px !important;
+        height: 20px !important;
+        width: 20px !important;
+        border-radius: 50% !important;
+}
+.sign-up-button{
+    text-align: right;
+}
+/* about us section  */
+.about-us a{
+    text-decoration: none;
+    color: black;
+}
+.about-us a:hover{
+    color: red;
+    text-decoration: underline;
+}
